@@ -1,0 +1,43 @@
+1. create new app 
+ng new my-app --skip-git
+
+2. switch to my-app folder
+cd my-app
+
+3. create component
+ng generate component home,about,contact
+
+4. Remove unwanted data from app.component(C).html
+
+5. Add imports of routing in app.C.ts  ->import { RouterModule, Routes } from '@angular/router';
+
+6. Add const routes: in app.C.ts
+
+7. Add RouterModule.forRoot(routes) in imports[] within app.C.ts
+
+8. Add <router-outlet></router-outlet> in app.C.html
+
+9. To start server/ for output on browser
+ng serve
+
+10. crete menu array in app.C.ts -> add all letters same which is specified in path
+
+11. display menu using *ngFor in app.C.html -> in for loop add routerLink
+
+12. Add css in app.C.css
+
+13. download bootstrap.min.css
+
+14. copy into src->assest
+
+15. link into index.html
+
+16. To create service
+new folder-> cmd on terminal-> ng g s service_name
+
+17. npm install bootstrap
+add [style] ->"node_modules/bootstrap/dist/css/bootstrap.css",
+& [script] ->  "node_modules/bootstrap/dist/js/bootstrap.js"
+in angular.json
+
+
